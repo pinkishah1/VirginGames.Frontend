@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12504554100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": ": User is able to register details",
+        "description": "",
+        "id": "virgin-games;:-user-is-able-to-register-details",
+        "after": [
+          {
+            "result": {
+              "duration": 1114096300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 207500600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on homepage",
+            "match": {
+              "location": "HomePageSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 207561400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User accepts cookies",
+            "match": {
+              "location": "HomePageSteps.userAcceptsCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108458800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User verifies the Welcome text",
+            "match": {
+              "location": "HomePageSteps.userVerifiesTheWelcomeText()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Virgin Games",
+    "description": "",
+    "id": "virgin-games",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/homepage.feature"
+  }
+]
